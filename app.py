@@ -6,7 +6,9 @@ from nltk.corpus import stopwords
 from nltk.stem.porter import PorterStemmer
 import sklearn
 ps = PorterStemmer()
-nltk.download('punkt')
+nltk.download('punkt', quiet=True)
+nltk.download('stopwords', quiet=True)
+
 
 def transform_text(text):
     text = text.lower()

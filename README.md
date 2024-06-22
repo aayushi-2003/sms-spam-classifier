@@ -2,7 +2,7 @@
 This project implements a simple ML classifier model to discern between two categories: "spam" and "not spam". The model is deployed as a web application using Streamlit, allowing users to input text messages and receive predictions on whether they are spam or not spam.
 
 App live on:
-https://sms-spam-classifier-jwfm.onrender.com/
+https://sms-spam-classifier-aayushi.streamlit.app/
 
 This model is trained on dataset from: https://www.kaggle.com/datasets/uciml/sms-spam-collection-dataset
 
